@@ -1,11 +1,15 @@
 body{
-    font-family: 'Segoe UI', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .caja01{
     background: url(../assets/bgHeader.png);
-    height: 107vh;
-    background-position-y: -100px;
+    height: 109vh;
+    background-position-x: -30px;
+    display: flex;
+    justify-content: center;
+    background-position-y: -90px;
 }
 
 .parrafos01{
@@ -22,6 +26,17 @@ body{
 }
 
 .boton01{
+    background-color: #f97316;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boton04{
     background-color: #f97316;
     color: white;
     padding: 10px 25px;
@@ -97,11 +112,11 @@ body{
 
 .caja03{
     display: flex;
-    margin: 100px;
+    margin-bottom: 60px;
 }
 
 .columna02{
-    
+    padding-right: 22px;
     flex-direction: column;
 }
 
@@ -201,4 +216,382 @@ ul{
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+}
+
+.imagen02{
+    margin-left: 90px;
+}
+
+@media (max-width: 1279px){
+   .caja01{
+        display: flex;
+        text-align: center;
+        height: 126vh;
+        background-position-x: -240px;
+   }
+    
+   .caja02{
+    display: flex;
+   }
+
+   .texto02{
+    padding-right: 100px;
+    font-size: 20px;
+    padding-top: 1px;
+    }
+
+    .titulo02{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+    .texto03{
+    padding-right: 10px;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-left: 70px;
+}
+
+    .titulo03{
+        font-size: 20px;
+        padding-top: 30px; 
+        padding-right: 10px; 
+}
+
+.h3{
+    margin-left: 70px;
+}
+
+    .caja03{
+    display: flex;
+}
+
+    .texto04{
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+    .titulo04{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+    .imagen02{
+        padding-left: 70px;
+        margin-left: 0px;
+    }
+
+    .caja04{
+    background: url(../assets/bgDown.png);
+    height: 90vh;
+        background-position-x: -200px;
+}
+}
+
+@media(max-width:920px){
+
+    .texto02{
+    padding-right: 10px;
+    font-size: 17px;
+    padding-top: 1px;
+    }
+
+    .titulo02{
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-right: 0px;
+    padding-top: 30px;
+}
+
+.caja02{
+    display: flex;
+    margin: 70px;
+   }
+
+   .h3{
+    margin-left: 5px;
+}
+
+ .caja01{
+        display: flex;
+        text-align: center;
+        height: 126vh;
+        background-position-x: -315px;
+   }
+
+   .texto03{
+    padding-right: 70px;
+    font-size: 17px;
+    padding-top: 1px;
+    padding-left: 35px;
+}
+
+    .titulo03{
+        font-size: 20px;
+        padding-top: 20px; 
+        padding-left: 30px;
+        padding-right: 0px;
+}
+
+.imagen01{
+    width: 60%;
+    padding-left: 70px;
+}
+
+.caja03{
+    margin: 35px;
+}
+
+.columna02{
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.imagen02{
+    width: 50%;
+    padding-left: 20px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+} 
+
+.texto04{
+    padding-right: 100px;
+    font-size: 17px;
+}
+
+    .titulo04{
+    font-size: 20px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.caja04{
+    background-position-x: -300px;
+}
+
+.boton02{
+    margin-left: 55px
+}
+}
+
+@media(max-width:768px){
+
+    .texto02{
+    padding-right: 10px;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-right: 0px;
+    }
+
+    .titulo02{
+    font-size: 10px;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+
+   body{
+    margin: 0px;
+    padding: 0px;
+   }
+
+   .texto03{
+    padding-right: 100px;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-left: 35px;
+    padding-right: 0px;
+}
+
+    .titulo03{
+        font-size: 12px;
+        padding-top: 20px; 
+        padding-left: 30px;
+        padding-right: 0px;
+}
+
+.caja01{
+        display: flex;
+        text-align: center;
+        height: 126vh;
+        background-position-x: -460px;
+}
+
+.caja02{
+    margin: 0px;
+    margin: 30px;
+}
+
+.imagen01{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.boton01{
+    padding: 4px 10px;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.imagen02{
+    width: 50%;
+    padding-left: 0px;
+    padding-top: 25px;
+}
+
+.boton02{
+    padding: 4px 10px;
+    margin-top: 3px;
+    font-size: 12px;
+    margin-left: 33px;
+}
+
+.caja03{
+    margin: 30px;
+}
+
+.caja04{
+    background-position-x: -490px;
+}
+
+.texto04{
+    padding-right: 70px;
+    font-size: 14px;
+}
+
+    .titulo04{
+    font-size: 20px;
+    padding-right: 80px;
+    padding-top: 60px;
+}
+
+.columna04{
+    margin-left: 50px;
+}
+
+.boton03{
+    padding: 8px 14px;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.caja05{
+    height: 460px;
+    justify-content: space-around;
+}
+
+.columnas{
+    margin: 30px;
+}
+}
+
+@media(max-width:480px){
+    .caja01{
+        background-position-x: -520px;
+    }
+
+    .imagen01{
+        width: 40%;
+    }
+
+    .titulo02{
+        font-size: 8px;
+    }
+
+    .texto02{
+        font-size: 8px;
+        padding-top: 0px;
+    }
+
+    .boton01{
+    padding: 3px 8px;
+    margin-top: 0px;
+    font-size: 7px;
+    }
+    .caja02{
+    margin: 0px;
+    margin: 20px;
+}
+
+    .imagen02{
+        width: 45%;
+        margin-left: 0px;
+    }
+
+    .titulo03{
+        font-size: 10px;
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    .texto03{
+        font-size: 8px;
+        padding-left: 25px;
+    }
+
+    .caja03{
+        margin: 20px;
+    }
+
+    .columna02{
+        padding-right: 0px;
+    }
+
+    .boton02{
+    padding: 3px 8px;
+    margin-top: 0px;
+    font-size: 7px;
+    }
+
+    .titulo04{
+        font-size: 12px;
+        padding-right: 50px;
+    }
+
+    .texto04{
+        font-size: 10px;
+    }
+
+    .caja04{
+        background-position-x: -640px;
+        height: 80vh;
+        background-position-y: -610px;
+    }
+
+    .boton03{
+    padding: 4px 8px;
+    margin-top: 0px;
+    font-size: 9px;
+    }
+
+    .columna04{
+        margin-left: 30px;
+    }
+
+    .caja05{
+    height: 370px;
+    justify-content: space-around;
+}
+
+.columnas{
+    margin: 0px;
+    font-size: 13px;
+}
+
+.texto06{
+    font-size: 13px;
+}
+
+.titulo01{
+    font-size: 22px;
+}
+
+.texto01{
+    font-size: 20px;
+}
 }
