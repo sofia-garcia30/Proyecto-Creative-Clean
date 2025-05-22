@@ -549,12 +549,12 @@ ul {
     }
 
     .titulo04 {
-        font-size: 14px;
+        font-size: 15px;
         padding-right: 80px;
     }
 
     .texto04 {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .caja04 {
@@ -567,11 +567,12 @@ ul {
     .boton03 {
         padding: 4px 8px;
         margin-top: 0px;
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .columna04 {
         margin-left: 30px;
+        width: 73%;
     }
 
     .caja05 {
