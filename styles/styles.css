@@ -5,11 +5,11 @@ body {
 
 .caja01 {
     background: url(../assets/bgHeader.png);
-    height: 109vh;
-    background-position-x: -30px;
+    height: 98vh;
     display: flex;
     justify-content: center;
     background-position-y: -90px;
+    background-position-x: 50px;
 }
 
 .parrafos01 {
@@ -492,50 +492,57 @@ ul {
         background-position-x: -520px;
         height: auto;
         padding-bottom: 20px;
+        background-position-y: 430px;
     }
 
     .imagen01 {
-        width: 40%;
+        width: 70%;
+        padding-top: 17px;
+        padding-left: 55px;
     }
 
     .titulo02 {
-        font-size: 8px;
+        font-size: 15px;
     }
 
     .texto02 {
-        font-size: 9px;
+        font-size: 14px;
         padding-top: 0px;
     }
 
     .boton01 {
-        padding: 3px 8px;
-        margin-top: 0px;
-        font-size: 8px;
+        padding: 7px 12px;
+        margin-top: 2px;
+        font-size: 13px;
+        margin-left: 130px;
     }
 
     .caja02 {
         margin: 0px;
         margin: 20px;
+        flex-direction: column;
     }
 
     .imagen02 {
-        width: 45%;
-        margin-left: 0px;
+        width: 70%;
+        padding-top: 17px;
+        padding-left: 55px;
     }
 
     .titulo03 {
-        font-size: 10px;
-        padding-left: 20px;
+        font-size: 18px;
+        padding-left: 0px;
         padding-top: 30px;
     }
 
     .texto03 {
-        font-size: 9px;
-        padding-left: 25px;
+        font-size: 14px;
+        padding-left: 0px;
     }
 
     .caja03 {
         margin: 20px;
+        flex-direction: column;
     }
 
     .columna02 {
@@ -543,36 +550,39 @@ ul {
     }
 
     .boton02 {
-        padding: 3px 8px;
-        margin-top: 0px;
-        font-size: 8px;
+        padding: 7px 12px;
+        margin-top: 2px;
+        font-size: 13px;
+        margin-left: 125px;
     }
 
     .titulo04 {
-        font-size: 15px;
+        font-size: 20px;
         padding-right: 80px;
+        padding-top: 20px;
     }
 
     .texto04 {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .caja04 {
-        background-position-x: -600px;
+        background-position-x: -550px;
         height: auto;
         background-position-y: -610px;
         padding-bottom: 20px;
     }
 
     .boton03 {
-        padding: 4px 8px;
+        padding: 8px 16px;
         margin-top: 0px;
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .columna04 {
         margin-left: 30px;
-        width: 73%;
+        width: 90%;
+        margin-left: 20px;
     }
 
     .caja05 {
@@ -595,5 +605,17 @@ ul {
 
     .texto01 {
         font-size: 20px;
+    }
+
+    .boton04{
+        margin-top: 20px;
+    }
+
+    .parrafos01{
+        padding-top: 0px;
+    }
+
+    .titulo01{
+        padding-top: 40px;
     }
 }
